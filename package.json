@@ -1,5 +1,5 @@
 {
-  "name": "node-config-nock",
+  "name": "config-nock",
   "version": "1.0.0",
   "description": "Config based mocking using node-nock",
   "main": "index.js",
