@@ -21,6 +21,7 @@ describe('Config nock', () => {
     request.get('https://example.com/api/status/monitoring', (err, response, body) => {
       assert.equal(response.statusCode, 200);
       assert.equal(body, 'test');
+      mocker.nock.cleanAll();
       done();
     });
 

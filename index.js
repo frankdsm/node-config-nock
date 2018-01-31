@@ -36,5 +36,6 @@ function mock(configKey, options, body) {
 
 module.exports = {
   setConfig,
-  mock
+  mock,
+  nock
 };
